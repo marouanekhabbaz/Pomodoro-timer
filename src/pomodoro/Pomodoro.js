@@ -3,7 +3,7 @@ import React from "react";
 // import useInterval from "../utils/useInterval";
 
 
-function Pomodoro({ isTimerRunning, session  , duration, durationFocusHundler , durationBreakHundler} ) {
+function Pomodoro({  isTimerRunning, session  , duration, durationFocusHundler , durationBreakHundler} ) {
 
 
   return (
@@ -21,6 +21,7 @@ function Pomodoro({ isTimerRunning, session  , duration, durationFocusHundler , 
                 type="button"
                 className="btn btn-secondary"
                 data-testid="decrease-focus"
+                disabled={!duration.disable}
                 onClick={durationFocusHundler}
               >
                 <span className="oi oi-minus" />
@@ -30,7 +31,8 @@ function Pomodoro({ isTimerRunning, session  , duration, durationFocusHundler , 
                 type="button"
                 className="btn btn-secondary"
                 data-testid="increase-focus"
-                onClick={durationFocusHundler}
+                disabled={ ! duration.disable}
+                onClick={ (e)=> {durationFocusHundler(e)  } }
               >
                 <span className="oi oi-plus" />
               </button>
@@ -50,7 +52,8 @@ function Pomodoro({ isTimerRunning, session  , duration, durationFocusHundler , 
                   type="button"
                   className="btn btn-secondary"
                   data-testid="decrease-break"
-                  onClick={durationBreakHundler }
+                  disabled={!duration.disable}
+                  onClick={ (e) => {durationBreakHundler(e)  } }
                 >
                   <span className="oi oi-minus" />
                 </button>
@@ -59,6 +62,7 @@ function Pomodoro({ isTimerRunning, session  , duration, durationFocusHundler , 
                   type="button"
                   className="btn btn-secondary"
                   data-testid="increase-break"
+                  disabled={!duration.disable}
                   onClick={durationBreakHundler}
                 >
                   <span className="oi oi-plus" />

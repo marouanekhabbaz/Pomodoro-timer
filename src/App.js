@@ -176,7 +176,7 @@ function App() {
         <h1>Pomodoro Timer</h1>
       </header>
       <div className="container">
-        <Pomodoro isTimerRunning={isTimerRunning}  session={session} duration={duration} durationFocusHundler={durationFocusHundler} durationBreakHundler={durationBreakHundler}/>
+        <Pomodoro  isTimerRunning={isTimerRunning}  session={session} duration={duration} durationFocusHundler={durationFocusHundler} durationBreakHundler={durationBreakHundler}/>
         <PlayPa playPause={playPause} isTimerRunning={isTimerRunning} stopHandler={stopHandler} duration={duration}/>
         <Timer session={session} isTimerRunning={isTimerRunning} duration={duration} />
         
