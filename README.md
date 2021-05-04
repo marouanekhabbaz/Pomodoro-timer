@@ -1,5 +1,6 @@
 # Pomodoro timer
-built a Web app that implements the Pomodoro technique of time management which was developed by Francesco Cirillo in the late 1980s.
+
+Is a Web app that implements the Pomodoro technique of time management which was developed by Francesco Cirillo in the late 1980s.
 
 The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks.
 
@@ -12,14 +13,14 @@ Share probs by lifting the probs to parents components.
 Deploy the app using Vercel.
 # Links 
 
-live Demo : 
+Live Demo : 
 
 https://project-timer-main.vercel.app
 
 
 # Installation Instructions
 
-to run this app on your machine follow these steps: 
+To run this app on your machine follow these steps: 
 
 Fork this repository by clicking the Fork button at the top right of the page.
 
