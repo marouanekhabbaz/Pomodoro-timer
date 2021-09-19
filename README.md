@@ -1,4 +1,4 @@
-# Pomodoro timer
+# Pomodoro timer:
 
 Is a Web app that implements the Pomodoro technique of time management which was developed by Francesco Cirillo in the late 1980s.
 
