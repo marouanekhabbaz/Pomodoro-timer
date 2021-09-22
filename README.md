@@ -8,7 +8,7 @@ Built using JavaScript, React, HTML, and Bootstrap.
 
 Manage States using React Hooks.
 
-Share probs by lifting the probs to parents components.
+Share probs by lifting the probs to parents components
 
 Deploy the app using Vercel.
 # Links 
