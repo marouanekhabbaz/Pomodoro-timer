@@ -28,6 +28,6 @@ Clone this repository.
 
 cd into the newly created directory.
 
-Run npm install
+Run npm install.
 
-Run npm start
+Run npm start.
